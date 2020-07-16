@@ -9,11 +9,6 @@ function MyInfo() {
         <div>
             <h1>Alex Whan</h1>
             <p>I am a developer in the Seattle area.</p>
-            <ul>
-                <li>Bulbasaur</li>
-                <li>Charmander</li>
-                <li>Squirtle</li>
-            </ul>
         </div>
     )
 }

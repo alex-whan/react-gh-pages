@@ -1,9 +1,11 @@
 import React from "react"
+import MyDate from "./MyDate"
 
 function MainContent() {
     return (
         <main>
-                <p>This is my content. Straight from a component, baby. Get some!</p>
+            <MyDate />
+            <p>This is my content. Straight from a component, baby.</p>
         </main>
     )
 }
