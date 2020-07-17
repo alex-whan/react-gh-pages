@@ -67,7 +67,7 @@ function App() {
                 />
             </div>
             
-            <MyList />
+            
             <Footer />
         </div>
     )
