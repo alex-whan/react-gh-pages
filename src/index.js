@@ -8,6 +8,7 @@ import ReactDOM from "react-dom"
 // In order for this not to fail, we need to import App
 
 import App from "./App"
+import App3 from "./App3"
 
 // entry point to our app
-ReactDOM.render(<App />, document.getElementById("root"));
+ReactDOM.render(<App3 />, document.getElementById("root"));

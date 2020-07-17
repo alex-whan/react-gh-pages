@@ -1,0 +1,58 @@
+const products = [
+    {
+        id: "1",
+        name: "Pencil",
+        price: 1.99,
+        description: "Perfect for those who can't remember things! 5/5 Highly recommend."
+    },
+    {
+        id: "2",
+        name: "Housing",
+        price: 0,
+        description: "Housing provided for out-of-state students or those who can't commute"
+    },
+    {
+        id: "3",
+        name: "Computer Rental",
+        price: 299.99,
+        description: "Don't have a computer? No problem!"
+    },
+    {
+        id: "4",
+        name: "Coffee",
+        price: 2.99,
+        description: "Wake up!"
+    },
+    {
+        id: "5",
+        name: "Snacks",
+        price: 0,
+        description: "Free snacks!"
+    },
+    {
+        id: "6",
+        name: "Rubber Duckies",
+        price: 3.50,
+        description: "To help you solve your hardest coding problems."
+    },
+    {
+        id: "7",
+        name: "Fidget Spinner",
+        price: 21.99,
+        description: "Because we like to pretend we're in high school."
+    },
+    {
+        id: "8",
+        name: "Sticker Set",
+        price: 14.99,
+        description: "To prove to other devs you know a lot."
+    },
+    {
+        id: "9",
+        name: "Bobblehead",
+        price: 12.99,
+        description: "Get your head in the game!"
+    }
+]
+
+export default products

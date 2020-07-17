@@ -11,11 +11,13 @@
 }
 
 body {
+  background-color: grey;
   margin: 0 auto;
   max-width: 760px;
 }
 
 h2 {
+  color: white;
   background-color: darkslategray;
 }
 
@@ -61,4 +63,11 @@ input[type=checkbox] {
 
 input[type=checkbox]:focus {
   outline: 0;
+}
+
+.product-listing {
+  background-color: lightgrey;
+  border: solid black 2px;
+  /* padding: 5px; */
+  margin: 10px;
 }

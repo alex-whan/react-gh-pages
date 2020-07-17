@@ -18,10 +18,16 @@ import MainContent from "./components/MainContent"
 import MyList from "./components/MyList"
 import ContactCard from "./components/ContactCard"
 import Joke from "./components/Joke"
+import jokesData from "./jokesData"
 
 function App() { 
+
+    // Now we have an array of components - which we can put directly into JSX
+    // Can do an implicit return on one line with the .map
+    // Remember: .map() returns an array
+    const jokeComponents = jokesData.map(joke => <Joke key={joke.id} question={joke.question} punchLine={joke.punchLine} />)
+   
     return (
-    // Need some kind of JSX element here
         <div>
             <Header />
             
