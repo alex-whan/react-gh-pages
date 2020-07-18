@@ -9,9 +9,13 @@ import ReactDOM from "react-dom"
 
 import App from "./App"
 import App2 from "./App2"
+import App2Class from "./App2Class"
 import App3 from "./App3"
+import App4 from "./App4"
 
 // entry point to our app
 // ReactDOM.render(<App />, document.getElementById("root"));
-ReactDOM.render(<App2 />, document.getElementById("root"));
+// ReactDOM.render(<App2 />, document.getElementById("root"));
+ReactDOM.render(<App2Class />, document.getElementById("root"));
 // ReactDOM.render(<App3 />, document.getElementById("root"));
+// ReactDOM.render(<App4 />, document.getElementById("root"));
