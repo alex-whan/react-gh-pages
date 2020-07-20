@@ -14,6 +14,8 @@ import App3 from "./App3"
 import App3Class from "./App3Class"
 import App4 from "./App4"
 import App4Class from "./App4Class"
+import App5 from "./App5"
+import App6 from "./App6"
 
 // entry point to our app
 // ReactDOM.render(<App />, document.getElementById("root"));
@@ -22,4 +24,6 @@ import App4Class from "./App4Class"
 // ReactDOM.render(<App3Class />, document.getElementById("root"));
 // ReactDOM.render(<App3 />, document.getElementById("root"));
 // ReactDOM.render(<App4 />, document.getElementById("root"));
-ReactDOM.render(<App4Class />, document.getElementById("root"));
+// ReactDOM.render(<App4Class />, document.getElementById("root"));
+// ReactDOM.render(<App5 />, document.getElementById("root"));
+ReactDOM.render(<App6 />, document.getElementById("root"));
