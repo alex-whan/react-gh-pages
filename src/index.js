@@ -21,11 +21,11 @@ import App7Login from "./App7Login"
 // entry point to our app
 // ReactDOM.render(<App />, document.getElementById("root"));
 // ReactDOM.render(<App2 />, document.getElementById("root"));
-// ReactDOM.render(<App2Class />, document.getElementById("root"));
+ReactDOM.render(<App2Class />, document.getElementById("root"));
 // ReactDOM.render(<App3Class />, document.getElementById("root"));
 // ReactDOM.render(<App3 />, document.getElementById("root"));
 // ReactDOM.render(<App4 />, document.getElementById("root"));
 // ReactDOM.render(<App4Class />, document.getElementById("root"));
 // ReactDOM.render(<App5 />, document.getElementById("root"));
 // ReactDOM.render(<App6 />, document.getElementById("root"));
-ReactDOM.render(<App7Login />, document.getElementById("root"));
+// ReactDOM.render(<App7Login />, document.getElementById("root"));
