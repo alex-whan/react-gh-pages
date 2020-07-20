@@ -71,3 +71,37 @@ input[type=checkbox]:focus {
   /* padding: 5px; */
   margin: 10px;
 }
+
+div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+button {
+  border: 1px solid lightgray;
+  background-color: transparent;
+  padding: 10px;
+  border-radius: 4px;   
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+button:focus {
+  outline:0;
+}
+
+header {
+  background-color: grey;
+  display: block;
+  margin: 20px;
+  width: 100%;
+}
