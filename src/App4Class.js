@@ -29,21 +29,20 @@ class App4Class extends React.Component {
     
     componentDidUpdate(prevProps, prevState) {
         if(prevState.count !== this.state.count) {
-            const newColor = randomcolor()
-            this.setState({color: newColor})
+            const newColor = randomcolor();
+            this.setState({color: newColor});
+            console.log("Component updated!");
         }
     }
     
     render() {
         return (
             <div>
-                <h1 style={{color: this.state.color}}>{this.state.count}</h1>
-                <button onClick={this.increment}>
-                    Increment!
-                </button>
-                <button onClick={this.decrement}>
-                    Decrement!
-                </button>
+                <div>
+                    <h1 style={{color: this.state.color}}>{this.state.count}</h1>
+                    <button onClick={this.increment}>Increment!</button>
+                    <button onClick={this.decrement}>Decrement!</button>
+                </div>
             </div>
         )
     }
