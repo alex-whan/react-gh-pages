@@ -17,11 +17,12 @@ import App4Class from "./App4Class"
 import App5 from "./App5"
 import App6 from "./App6"
 import App7Login from "./App7Login"
+import App8API from "./App8API"
 
 // entry point to our app
 // ReactDOM.render(<App />, document.getElementById("root"));
 // ReactDOM.render(<App2 />, document.getElementById("root"));
-ReactDOM.render(<App2Class />, document.getElementById("root"));
+// ReactDOM.render(<App2Class />, document.getElementById("root"));
 // ReactDOM.render(<App3Class />, document.getElementById("root"));
 // ReactDOM.render(<App3 />, document.getElementById("root"));
 // ReactDOM.render(<App4 />, document.getElementById("root"));
@@ -29,3 +30,4 @@ ReactDOM.render(<App2Class />, document.getElementById("root"));
 // ReactDOM.render(<App5 />, document.getElementById("root"));
 // ReactDOM.render(<App6 />, document.getElementById("root"));
 // ReactDOM.render(<App7Login />, document.getElementById("root"));
+ReactDOM.render(<App8API />, document.getElementById("root"));
