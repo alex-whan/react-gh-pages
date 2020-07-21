@@ -18,6 +18,7 @@ import App5 from "./App5"
 import App6 from "./App6"
 import App7Login from "./App7Login"
 import App8API from "./App8API"
+import App9 from "./App9"
 
 // entry point to our app
 // ReactDOM.render(<App />, document.getElementById("root"));
@@ -30,4 +31,5 @@ import App8API from "./App8API"
 // ReactDOM.render(<App5 />, document.getElementById("root"));
 // ReactDOM.render(<App6 />, document.getElementById("root"));
 // ReactDOM.render(<App7Login />, document.getElementById("root"));
-ReactDOM.render(<App8API />, document.getElementById("root"));
+// ReactDOM.render(<App8API />, document.getElementById("root"));
+ReactDOM.render(<App9 />, document.getElementById("root"));

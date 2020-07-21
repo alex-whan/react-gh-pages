@@ -28,7 +28,7 @@ class App8API extends Component {
     }
 
     render() {
-        const personInfo = this.state.loading ? <Conditional/> : this.state.character.name;
+        const personInfo = this.state.loading ? <Conditional/> : <li>{this.state.character.name}, Born: {this.state.character.birth_year}</li>;
         return (
             <div>
                 <ul>
