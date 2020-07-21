@@ -11,30 +11,34 @@ class App8API extends Component {
     }
 
     componentDidMount() {
+        // let promiseArray = [];
+        let url = "https://swapi.dev/api/people/1";
         this.setState({loading: true})
-        fetch("https://swapi.dev/api/people/1")
+        fetch(url)
+        .then(res => res.json())
+        .then(data => {
             // resolve a promise with .then()
-            .then(response => response.json())
             // Once we receive the data, we need to SAVE it somewhere or else it'll disappear
             // Remember: the way we save data within a component is in its STATE
-            .then(data =>
-                this.setState({ // We don't care what the prevState was in this case
-                    loading: false,
-                    character: data
-                })
-            )
+            this.setState({ // We don't care what the prevState was in this case
+                loading: false,
+                character: data
+            })
+        })
     }
 
     render() {
-        const text = this.state.loading ? <Conditional/> : this.state.character.name;
-
+        const personInfo = this.state.loading ? <Conditional/> : this.state.character.name;
         return (
             <div>
-                <p>{text}</p>
+                <ul>
+                    <li>{personInfo}</li>
+                    {/* <li>{this.state.character.homeworld}</li> */}
+                </ul>
             </div>
         )
-    }
 
+    }
 }
 
 
