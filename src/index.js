@@ -19,6 +19,9 @@ import App6 from "./App6"
 import App7Login from "./App7Login"
 import App8API from "./App8API"
 import App9 from "./App9"
+import App10Hooks from "./App10Hooks"
+import App11Hooks from "./App11Hooks"
+import App12Hooks from "./App12Hooks"
 
 // entry point to our app
 // ReactDOM.render(<App />, document.getElementById("root"));
@@ -32,4 +35,7 @@ import App9 from "./App9"
 // ReactDOM.render(<App6 />, document.getElementById("root"));
 // ReactDOM.render(<App7Login />, document.getElementById("root"));
 // ReactDOM.render(<App8API />, document.getElementById("root"));
-ReactDOM.render(<App9 />, document.getElementById("root"));
+// ReactDOM.render(<App9 />, document.getElementById("root"));
+// ReactDOM.render(<App10Hooks />, document.getElementById("root"));
+// ReactDOM.render(<App11Hooks />, document.getElementById("root"));
+ReactDOM.render(<App12Hooks />, document.getElementById("root"));
