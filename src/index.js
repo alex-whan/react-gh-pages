@@ -34,8 +34,8 @@ import App12Hooks from "./App12Hooks"
 // ReactDOM.render(<App5 />, document.getElementById("root"));
 // ReactDOM.render(<App6 />, document.getElementById("root"));
 // ReactDOM.render(<App7Login />, document.getElementById("root"));
-// ReactDOM.render(<App8API />, document.getElementById("root"));
+ReactDOM.render(<App8API />, document.getElementById("root"));
 // ReactDOM.render(<App9 />, document.getElementById("root"));
 // ReactDOM.render(<App10Hooks />, document.getElementById("root"));
 // ReactDOM.render(<App11Hooks />, document.getElementById("root"));
-ReactDOM.render(<App12Hooks />, document.getElementById("root"));
+// ReactDOM.render(<App12Hooks />, document.getElementById("root"));
